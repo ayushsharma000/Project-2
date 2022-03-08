@@ -1,0 +1,150 @@
+body{
+    font-family: sans-serif;
+}
+.container1{
+    display: flex;
+    height: 70px;
+    width: 641px;
+    column-gap: 220px;
+    margin: auto;
+}
+.box1{
+    font-size: 44px;
+    position: relative;
+    top: 200px;
+}
+.heading1{
+    display: inline-block;
+    font-weight: bold;
+}
+.heading2{
+    display: inline-block;
+    font-weight: lighter;
+}
+.box2{
+    height: 64px;
+    width: 168px;
+    font-size: 28px;
+    position: relative;
+    top: 200px;
+}
+.icon{
+    font-size: 46px;
+    color: red;
+    display: inline-block;
+}
+a{
+    color: red;
+    text-decoration: none;
+    
+}
+.container2{
+    display: flex;
+    height: 500px;
+    width: 639px;
+    margin: auto;
+    justify-content: center;
+    column-gap: 60px;
+}
+.box3{
+    border: 5px solid red;
+    box-shadow: 7px 7px 7px 3px grey;
+    height: 235px;
+    width: 162px;
+    font-size: medium;
+    border-radius: 20px;
+    position: relative;
+    top: 272px;
+}
+.list{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}   
+hr{
+    width: 130px;
+    position: relative;
+    right: -15px;  
+}
+.task{
+    text-decoration: line-through;
+    color: red;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.check{
+    font-size: 20px;
+    margin: 5px;
+}
+.box4{
+    border: 5px solid red;
+    box-shadow: 7px 7px 7px 3px grey;
+    height: 235px;
+    width: 162px;
+    font-size: medium;
+    border-radius: 20px;
+    position: relative;
+    top: 272px;
+}
+.box5{
+    border: 5px solid red;
+    box-shadow: 7px 7px 7px 3px grey;
+    height: 235px;
+    width: 162px;
+    font-size: medium;
+    border-radius: 20px;
+    position: relative;
+    top: 272px;
+}
+.blur{
+    width: 100%;
+    height: 1000px;
+    filter: blur(5px);
+}
+.active{
+    border: 3px solid red;
+    background-color: white;
+    border-radius: 13px;
+    height: 195px;
+    width: 303px;
+    margin: 250px auto;
+    position: relative;
+    bottom: 1000px;
+}
+.add{
+    height: 27px;
+    width: 120px;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 22px;
+    color: red;
+}
+.text{
+    height: 49px;
+    width: 296px;
+    margin: auto;
+    border-radius: 4px;
+    padding-top: 28px;
+}
+.input{
+    border: 2px solid red;
+    margin-left: 30px;
+    height: 20px;
+    width: 220px;
+    border-radius: 4px;
+}
+.box{
+height: 23px;
+width: 72px;
+margin: auto;
+border-radius: 4px;
+}
+button{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    height: 23px;
+    width: 72px;
+    border-radius: 45px;
+}
